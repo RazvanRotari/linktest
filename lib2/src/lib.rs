@@ -1,4 +1,5 @@
-use lib1::add;
+pub use lib1::add;
+pub use lib1::tokio;
 
 #[cfg(test)]
 mod tests {
